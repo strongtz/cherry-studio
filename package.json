@@ -52,6 +52,7 @@
     "@electron-toolkit/utils": "^3.0.0",
     "@electron/notarize": "^2.5.0",
     "@google/generative-ai": "^0.21.0",
+    "@libsql/win32-arm64-msvc": "portal:./local-packages/@libsql/win32-arm64-msvc",
     "@llm-tools/embedjs": "patch:@llm-tools/embedjs@npm%3A0.1.28#~/.yarn/patches/@llm-tools-embedjs-npm-0.1.28-8e4393fa2d.patch",
     "@llm-tools/embedjs-libsql": "^0.1.28",
     "@llm-tools/embedjs-loader-csv": "^0.1.28",
@@ -160,7 +161,9 @@
     "pdf-parse@npm:1.1.1": "patch:pdf-parse@npm%3A1.1.1#~/.yarn/patches/pdf-parse-npm-1.1.1-04a6109b2a.patch",
     "@langchain/openai@npm:^0.3.16": "patch:@langchain/openai@npm%3A0.3.16#~/.yarn/patches/@langchain-openai-npm-0.3.16-e525b59526.patch",
     "@langchain/openai@npm:>=0.1.0 <0.4.0": "patch:@langchain/openai@npm%3A0.3.16#~/.yarn/patches/@langchain-openai-npm-0.3.16-e525b59526.patch",
-    "openai@npm:^4.77.0": "patch:openai@npm%3A4.77.3#~/.yarn/patches/openai-npm-4.77.3-59c6d42e7a.patch"
+    "openai@npm:^4.77.0": "patch:openai@npm%3A4.77.3#~/.yarn/patches/openai-npm-4.77.3-59c6d42e7a.patch",
+    "node-gyp": "^9.1.0",
+    "@libsql/win32-arm64-msvc": "portal:./local-packages/@libsql/win32-arm64-msvc"
   },
   "packageManager": "yarn@4.5.0"
 }
